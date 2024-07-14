@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <title>Youtube - Home</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="styles/general.css">
+        <link rel="stylesheet" href="styles/header.css">
+        <link rel="stylesheet" href="styles/vid.css">
+        <link rel="stylesheet" href="styles/sidebar.css">
+    </head>
+    <body>
+        <header class="header">
+            <div class="left-section">
+                <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+                <img class="yt-logo" src="icons/youtube-logo.svg">
+            </div>
+
+            <div class="middle-section">
+                <input class="search-bar" type="text" placeholder="Search">
+                <button class="search-button">
+                    <img class="search-icon" src="icons/search.svg">
+                    <div class="tooltip">
+                        Search
+                    </div>
+                </button>
+                <!--This is for the tooltip (this is a comment)-->
+                <button class="voice-search-button">
+                    <img class="voice-s-i" src="icons/voice-search-icon.svg">
+                    <div class="tooltip">
+                        Search with your voice
+                    </div>
+                </button>
+            </div>
+            <div class="right-section">
+                <div class="upload-container">
+                    <img class="upload" src="icons/upload.svg">
+                    <div class="tooltip">
+                        Create
+                    </div>
+                </div>
+                <div class="yt-apps-container">
+                    <img class="yt-apps" src="icons/youtube-apps.svg">
+                    <div class="tooltip">
+                        Youtube apps
+                    </div>
+                </div>
+                
+                <div class="notif-pos">
+                    <img class="notif" src="icons/notifications.svg">
+                    <div class="notif-count">
+                        3
+                    </div>
+                </div>
+                <img class="profile" src="dps/my-profile.png">
+            </div>
+            
+        </header >
+
+        <div class="sidebar">
+            <div class="sidebar-link">
+                <img class="sidebar-icon" src="sidebar-icons/home.svg">
+                <div>Home</div>
+            </div>
+            <div class="sidebar-link">
+                <img class="sidebar-icon" src="sidebar-icons/explore.svg">
+                <div>Explore</div>
+            </div>
+            <div class="sidebar-link">
+                <img class="sidebar-icon" src="sidebar-icons/subscriptions.svg">
+                <div>Subscriptions</div>
+            </div>
+            <div class="sidebar-link">
+                <img class="sidebar-icon" src="sidebar-icons/originals.svg">
+                <div>Originals</div>
+            </div>
+            <div class="sidebar-link">
+                <img class="sidebar-icon" src="sidebar-icons/youtube-music.svg">
+                <div>Youtube Music</div>
+            </div>
+            <div class="sidebar-link">
+                <img class="sidebar-icon" src="sidebar-icons/library.svg">
+                <div>Library</div>
+            </div>
+        </div>
+        
+        
+        <div class="videos-grid">
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class = "thumbnails" src="thumbnails/joejoe.jpg">
+                    <div class="vid-time">
+                        8:47
+                    </div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-pic">
+                        <img class="profile" src="dps/joe-dp.jpg">
+                    </div>
+                    <div class="vid-info">
+                        <p class="video-title">
+                            Joe Rogan Says his not just bald but also gay
+                        </p>
+            
+                        <p class="video-author">
+                            The PODcast
+                        </p>
+                        
+                        <p class="video-stats">
+                            3.4M views · 3 weeks ago
+                        </p>
+                    </div>
+                </div>
+    
+            </div>
+    
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class = "thumbnails" src="thumbnails/100html.png">
+                    <div class="vid-time">
+                        1:30
+                    </div>
+                </div>
+                <div class="video-info-grid"> 
+                    <div class="channel-pic">
+                        <img class="profile" src="dps/fireship-dp.png">
+                    </div>
+                    <div class="vid-info">
+                        <p class="video-title">
+                            HTML in 100 seconds!
+                        </p>
+            
+                        <p class="video-author">
+                            Fireship
+                        </p>
+                        
+                        <p class="video-stats">
+                            5.2M views · 2 months ago 
+                        </p>
+                    </div>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class = "thumbnails" src="thumbnails/child-magnus.jpg">
+                    <div class="vid-time">
+                        11:20
+                    </div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-pic">
+                        <img class="profile" src="dps/chess.com logo.jpg">
+                    </div>
+                    <div class="vid-info">
+                        <p class="video-title">
+                            Magnus Carlsen destroying players at a young age
+                        </p>
+            
+                        <p class="video-author">
+                            Chess.com
+                        </p>
+            
+                        <p class="video-stats">
+                            4.7M views · 3 months ago 
+                        </p>
+                    </div>
+                </div>
+    
+            </div>
+    
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class = "thumbnails" src="thumbnails/missing felix.jpg">
+                    <div class="vid-time">
+                        24:45
+                    </div>
+                </div>
+                <div class="video-info-grid"> 
+                    <div class="channel-pic">
+                        <img class="profile" src="dps/pewds.jpg">
+                    </div>
+                    <div class="vid-info">
+                        <p class="video-title">
+                            Missing Joergen
+                        </p>
+            
+                        <p class="video-author">
+                            PiewDiePie
+                        </p>
+                        
+                        <p class="video-stats">
+                            7M views · 1 week ago 
+                        </p>
+                    </div>
+                    
+                </div>
+                
+            </div>
+        
+    
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class = "thumbnails" src="thumbnails/mrbeast.jpg">
+                    <div class="vid-time">
+                        12:30
+                    </div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-pic">
+                        <img class="profile" src="dps/skitzy.jpg">
+                    </div>
+                    <div class="vid-info">
+                        <p class="video-title">
+                            I am the new Mr Beast
+                        </p>
+            
+                        <p class="video-author">
+                            Skitzy_Va
+                        </p>
+                        
+                        <p class="video-stats">
+                            367k views · 4 weeks ago 
+                        </p>
+                    </div>
+                </div>
+        
+            </div>
+    
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class = "thumbnails" src="thumbnails/100css.png">
+                    <div class="vid-time">
+                        1:25
+                    </div>
+                </div>
+                <div class="video-info-grid"> 
+                    <div class="channel-pic">
+                        <img class="profile" src="dps/fireship-dp.png">
+                    </div>
+                    <div class="vid-info">
+                        <p class="video-title">
+                            CSS in 100 seconds!
+                        </p>
+            
+                        <p class="video-author">
+                            Fireship
+                        </p>
+                        
+                        <p class="video-stats">
+                            5.5M views · 1 month ago 
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class = "thumbnails" src="thumbnails/joejoe.jpg">
+                    <div class="vid-time">
+                        8:47
+                    </div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-pic">
+                        <img class="profile" src="dps/joe-dp.jpg">
+                    </div>
+                    <div class="vid-info">
+                        <p class="video-title">
+                            Joe Rogan Says his not just bald but also gay
+                        </p>
+            
+                        <p class="video-author">
+                            The PODcast
+                        </p>
+                        
+                        <p class="video-stats">
+                            3.4M views · 3 weeks ago
+                        </p>
+                    </div>
+                </div>
+    
+            </div>
+
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class = "thumbnails" src="thumbnails/100html.png">
+                    <div class="vid-time">
+                        1:20
+                    </div>
+                </div>
+                <div class="video-info-grid"> 
+                    <div class="channel-pic">
+                        <img class="profile" src="dps/fireship-dp.png">
+                    </div>
+                    <div class="vid-info">
+                        <p class="video-title">
+                            HTML in 100 seconds!
+                        </p>
+            
+                        <p class="video-author">
+                            Fireship
+                        </p>
+                        
+                        <p class="video-stats">
+                            5.2M views · 2 months ago 
+                        </p>
+                    </div>
+                    
+                </div>
+                
+            </div>
+
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class = "thumbnails" src="thumbnails/child-magnus.jpg">
+                    <div class="vid-time">
+                        11:20
+                    </div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-pic">
+                        <img class="profile" src="dps/chess.com logo.jpg">
+                    </div>
+                    <div class="vid-info">
+                        <p class="video-title">
+                            Magnus Carlsen destroying players at a young age
+                        </p>
+            
+                        <p class="video-author">
+                            Chess.com
+                        </p>
+            
+                        <p class="video-stats">
+                            4.7M views · 3 months ago 
+                        </p>
+                    </div>
+                </div>
+    
+            </div>
+
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class = "thumbnails" src="thumbnails/missing felix.jpg">
+                </div>
+                <div class="video-info-grid"> 
+                    <div class="channel-pic">
+                        <img class="profile" src="dps/pewds.jpg">
+                    </div>
+                    <div class="vid-info">
+                        <p class="video-title">
+                            Missing Joergen
+                        </p>
+            
+                        <p class="video-author">
+                            PiewDiePie
+                        </p>
+                        
+                        <p class="video-stats">
+                            7M views · 1 week ago 
+                        </p>
+                    </div>
+                    
+                </div>
+                
+            </div>
+
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class = "thumbnails" src="thumbnails/mrbeast.jpg">
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-pic">
+                        <img class="profile" src="dps/skitzy.jpg">
+                    </div>
+                    <div class="vid-info">
+                        <p class="video-title">
+                            I am the new Mr Beast
+                        </p>
+            
+                        <p class="video-author">
+                            Skitzy_Va
+                        </p>
+                        
+                        <p class="video-stats">
+                            367k views · 4 weeks ago 
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class = "thumbnails" src="thumbnails/100css.png">
+                </div>
+                <div class="video-info-grid"> 
+                    <div class="channel-pic">
+                        <img class="profile" src="dps/fireship-dp.png">
+                    </div>
+                    <div class="vid-info">
+                        <p class="video-title">
+                            CSS in 100 seconds!
+                        </p>
+            
+                        <p class="video-author">
+                            Fireship
+                        </p>
+                        
+                        <p class="video-stats">
+                            5.5M views · 1 month ago 
+                        </p>
+                    </div>
+                    
+                </div>
+            </div>
+
+        </div>
+        
+    </body>
+
+</html>
